@@ -38,7 +38,7 @@ def task_1():
             file.write(f"{name}: {score}\n")
         print(f"Студента {name} додано до файлу {filename}.")
 
-    add_student(os.path.join('data', 'students.txt'), "Андрій Григоренко", 91.2)
+    add_student(os.path.join('data', 'students.txt'), "Василь ВАсильович", 55)
 
     # 4. Пошук студента за ім'ям
     print("\n4. Пошук студента за ім'ям...")

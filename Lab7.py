@@ -105,6 +105,6 @@ print("Інформація про книгу з номером 2:")
 print(library.get_book_by_id(2))
 
 # Видалення книги
-library.remove_book(2)
+library.remove_book(1)
 print("Всі книги після видалення:")
 library.display_all_books()
